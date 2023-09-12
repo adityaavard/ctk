@@ -9,7 +9,7 @@ customtkinter.set_default_color_theme("dark-blue")
 #main window
 ctk = customtkinter.CTk()
 ctk.geometry("720x480")
-ctk.title("window")
+ctk.title("customtkinter window")
 
 #text testing
 textlabel = customtkinter.CTkLabel(ctk, text="test")
